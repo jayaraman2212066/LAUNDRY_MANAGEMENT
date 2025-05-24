@@ -1,0 +1,15 @@
+Django>=3.2,<5.0
+django-crispy-forms>=1.13.0
+crispy-bootstrap5>=0.7
+djangorestframework>=3.14.0
+Pillow>=9.0.0
+django-filter>=23.2
+gunicorn>=21.2.0             # if deploying to production (optional)
+psycopg2-binary>=2.9.5       # if using PostgreSQL
+whitenoise>=6.5.0            # for serving static files in production (optional)
+python-decouple>=3.8         # to manage environment variables (optional)
+dj-database-url>=2.1.0       # for database configuration from URL
+
+
+
+
