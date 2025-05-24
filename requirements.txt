@@ -1,15 +1,13 @@
-Django>=3.2,<5.0
-django-crispy-forms>=1.13.0
-crispy-bootstrap5>=0.7
-djangorestframework>=3.14.0
-Pillow>=9.0.0
-django-filter>=23.2
-gunicorn>=21.2.0             # if deploying to production (optional)
-psycopg2-binary>=2.9.5       # if using PostgreSQL
-whitenoise>=6.5.0            # for serving static files in production (optional)
-python-decouple>=3.8         # to manage environment variables (optional)
-dj-database-url>=2.1.0       # for database configuration from URL
-
-
-
-
+﻿asgiref==3.7.2
+backports.zoneinfo==0.2.1
+bcrypt==4.0.1
+Django==4.2.3
+djangorestframework==3.14.0
+djangorestframework-simplejwt==5.2.2
+libsass==0.22.0
+Pillow==10.0.0
+PyJWT==2.7.0
+pytz==2023.3
+sqlparse==0.4.4
+typing_extensions==4.7.1
+tzdata==2023.3
